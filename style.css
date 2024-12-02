@@ -3,6 +3,7 @@
     width: 100%;
     background-color: rgb(56, 52, 52);
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     
 }
@@ -33,12 +34,14 @@
     width: 100%;
     background-color: rgb(39, 40, 51);
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     
 }
 ul{
     color: white;
     display: flex;
+    flex-wrap: wrap;
     column-gap: 20px;
     list-style: none;
     width:600px;  
@@ -53,4 +56,8 @@ ul{
 }
 .fourth{
     column-gap: 25px;
+    flex-wrap: wrap;
+}
+body{
+    flex-wrap: wrap;
 }
